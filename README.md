@@ -1,8 +1,7 @@
 # Latex template for PGM assignment
 
 This is a personal template for writing PGM homework.
-
-    * [Preview PDF](https://github.com/bckim92/pgm-latex-template/blob/gh-pages/writeup.pdf)
+- [Preview PDF](https://github.com/bckim92/pgm-latex-template/blob/gh-pages/writeup.pdf)
 
 We only support instructions for Linux envrionment.
 
