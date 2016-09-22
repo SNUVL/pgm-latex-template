@@ -67,13 +67,11 @@ You can enumerate subquestions like this.
 You can write your equations by using \verb|\begin{aligned}|.
 We highly recommend you to use \verb|\newcommand| to simplify your equation in \LaTeX.
 
-$$
-\begin{aligned}
+\begin{align}
     \Ab &= 12 \\
     \alpha_{12}^{35} &= 1234 \\
     \beta_1 &= 10
-\end{aligned}
-$$
+\end{align}
 
 You can cite your reference by using \verb|\cite{reference_name}|.
 For example, cite Koller's PGM book \cite{KollerPGM} like this.
@@ -82,9 +80,23 @@ For example, cite Koller's PGM book \cite{KollerPGM} like this.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Q2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Variance [5 points]}
+\section{Some materials for HW2 [5 points]}
 
-Fill your answers.
+\begin{table}[!h]
+\centering
+\begin{tabular}{c|l|l|l|l}
+Step & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Variable\\ eliminated\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Factors\\ used\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Variables\\ involved\end{tabular}} & \multicolumn{1}{c}{\begin{tabular}[c]{@{}c@{}}New\\ factor\end{tabular}} \\ \hline
+1    &                                                                                    &                                                                             &                                                                                   &                                                                          \\
+2    &                                                                                    &                                                                             &                                                                                   &                                                                          \\
+3    &                                                                                    &                                                                             &                                                                                   &                                                                          \\
+4    &                                                                                    &                                                                             &                                                                                   &                                                                          \\
+5    &                                                                                    &                                                                             &                                                                                   &                                                                          \\
+6    &                                                                                    &                                                                             &                                                                                   &                                                                          \\
+7    &                                                                                    &                                                                             &                                                                                   &                                                                         
+\end{tabular}
+\caption{A run of variable elimination for the query $P(J)$}
+\label{table:VE}
+\end{table}
 
 % Bibtex
 \bibliography{writeup}
